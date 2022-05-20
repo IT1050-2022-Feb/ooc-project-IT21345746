@@ -6,14 +6,15 @@ class delivery {
 
 private:
 
-char deliCode;
+char deliCode[];
 date date;
 time time;
-char order_id;
+char order_id[];
 char staff_id;
-char customer_id;
+char customer_id[];
 int product_id;
 
 public
-delivery()
+delivery();
+delivery(char d_code[],)
 }
