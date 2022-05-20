@@ -30,4 +30,71 @@ product::product()
   
 }
 
+void product::setProduct_ID(const char P_ID)
+{
+  
+}
 
+void product::setProduct_code(const char P_code)
+{
+  
+}
+
+void product::setProduct_name(const char P_name)
+{
+  
+}
+
+void product::setProduct_category(const char P_category)
+{
+  
+}
+
+void product::setProduct_price(double P_price)
+{
+  
+}
+
+void product::setStaff_ID(const char S_ID)
+{
+  
+}
+
+void product::setCustomer_ID(const char C_ID)
+{
+  
+}
+
+char getProductID()
+{
+  
+}
+
+char getProductCode()
+{
+  
+}
+
+char getProductName()
+{
+  
+}
+
+char getProductCategory()
+{
+  
+}
+
+char getProductPrice()
+{
+  
+}
+ void DisplayProductDetails()
+{
+  
+}
+
+product::~product()
+{
+  cout<<"DeleteProduct"<<endl;
+}

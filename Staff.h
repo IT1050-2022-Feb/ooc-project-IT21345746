@@ -14,6 +14,8 @@ public:
   ~Staff();
 };
 
+//Derived classes Accountant,Manager,Administrator
+
 class Accountant::public Staff{
   private:
     char ac_name[];
@@ -40,7 +42,20 @@ class Administrator::public Staff{
   private:
     char admin_id[];
     char name[];
-    
+    char email[];
+  public:
+    Administrator();
+    Administrator(char ad_id[],char ad_name[],char ad_mail[]);
+    char getProduct();
+    void setProduct();
+    char getReport();
+    void setEvent();
+    void Delivery();
+    void setAdmin();
+    void replyMessage();
+    void backupData();
+    void setCategory();
+    ~Administrator();
   
-}
+};
       
