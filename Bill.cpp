@@ -4,7 +4,7 @@
 
 using namespace std;
 
-product::Bill()
+Bill::Bill()
 
 {
   strcpy(bill_code,"")
@@ -14,46 +14,29 @@ product::Bill()
   strcpy(Staff_ID,"")
   
 }
- product::product (const char P_ID[], const char P_code[], const char P_name[], 
- const char P_category[], double P_price, const char S_ID[], const char C_ID[])
+ bill::bill(const char b_code[], double b_amount[], date 
+ b_date,const char C_ID[],const char S_ID[])
 
 {
-  strcpy(Product_ID,"")
-  strcpy(Product_code,"")
-  strcpy(Product_name,"")
-  strcpy(Product_category,"")
-  strcpy(Product_price,"")
-  strcpy(Staff_ID,"")
+  strcpy(bill_code,"")
+  strcpy(bill_amount,"")
+  strcpy(bill_date,"")
   strcpy(Customer_ID,"")
+  strcpy(Staff_ID,"")
   
 }
 
-void product::setProduct_ID(const char P_ID)
+void bill::setBill_code(const char b_code)
 {
   
 }
 
-void product::setProduct_code(const char P_code)
+void bill::setBill_amount(double b_amount)
 {
   
 }
 
-void product::setProduct_name(const char P_name)
-{
-  
-}
-
-void product::setProduct_category(const char P_category)
-{
-  
-}
-
-void product::setProduct_price(double P_price)
-{
-  
-}
-
-void product::setStaff_ID(const char S_ID)
+void bill::setBill_date(date b_date)
 {
   
 }
@@ -63,36 +46,32 @@ void product::setCustomer_ID(const char C_ID)
   
 }
 
-char getProductID()
+void product::setStaff_ID(const char S_ID)
 {
   
 }
 
-char getProductCode()
+char getBillCode()
 {
   
 }
 
-char getProductName()
+double getBillAmount()
 {
   
 }
 
-char getProductCategory()
+date getBillDate()
 {
   
 }
 
-char getProductPrice()
-{
-  
-}
- void DisplayProductDetails()
+void DisplayBillDetails()
 {
   
 }
 
-product::~product()
+Bill::~Bill()
 {
-  cout<<"DeleteProduct"<<endl;
+  cout<<"DeleteBill"<<endl;
 }
