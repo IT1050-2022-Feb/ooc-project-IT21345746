@@ -16,5 +16,10 @@ int product_id;
 
 public
 delivery();
-delivery(char d_code[],)
+delivery(char d_code[],date:d_date,time:d_time:,char s_id[],int p_id)
+
+void identifyItems();
+void checkRreceiver();
+void updateDeliveryInfo();
+~delivery();
 }

@@ -17,7 +17,7 @@ product::product()
   
 }
  product::product (const char P_ID[], const char P_code[], const char P_name[], 
- const char P_category[], double P_price, const char S_ID[], const char C_ID[]);
+ const char P_category[], double P_price, const char S_ID[], const char C_ID[])
 
 {
   strcpy(Product_ID,"")

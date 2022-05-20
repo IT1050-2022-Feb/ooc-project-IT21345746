@@ -1,4 +1,4 @@
-include namespace std;
+using namespace std;
 
 #include<iostream>
 class product{

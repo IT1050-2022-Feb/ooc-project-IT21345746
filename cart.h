@@ -14,7 +14,7 @@ char customer_id;
 public:
 
 cart();
-cart(char ca_id[],int q,char staff_id[],char c_id[]);
+cart(char ca_id[],int q,char s_id[],char c_id[]);
 char getitems();
 void setitems();
 void setqunatity();
@@ -22,7 +22,7 @@ void  displayitems();
 void displayCartDeatails();
 void checkOut();
 void calUnitPrice();
-void calTotalPrice;
+void calTotalPrice();
 ~cart();
 
 }
